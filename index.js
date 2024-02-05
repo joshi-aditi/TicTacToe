@@ -23,6 +23,7 @@ let win_cond = [
 
 const resetGame = () => {
   turn_o = true;
+  count = 0;
   enableBoxes();
   main_container.classList.remove("hide_new");
   head.classList.remove("hide_new");
